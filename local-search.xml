@@ -4,26 +4,19 @@
   
   
   <entry>
-    <title>Hello Hexo</title>
-    <link href="/2023/08/19/Hello-Hexo/"/>
-    <url>/2023/08/19/Hello-Hexo/</url>
+    <title>hexoBlog</title>
+    <link href="/2023/08/19/hexoBlog/"/>
+    <url>/2023/08/19/hexoBlog/</url>
     
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="/2023/08/19/hello-world/"/>
-    <url>/2023/08/19/hello-world/</url>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="MyHexoBlog"><a href="#MyHexoBlog" class="headerlink" title="MyHexoBlog"></a>MyHexoBlog</h1><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>目前想重新拾起自己寫作，所以這次希望面向幾個主題 : </p><p><code>@life</code>, <code>@coding</code>, <code>@family</code></p><p>所以最終選則 hexo + github 組合，這邊主要看了這篇學習筆記<br><a href="https://hackmd.io/@Heidi-Liu/note-hexo-githu">【學習筆記】如何使用 Hexo + GitHub Pages 架設個人網誌</a></p><p>之前也試過幾個部落格，但總是持續不長。 :joy:</p><p>所以這是相對來說選擇方向，覺得能滿足我的需求，並且也能用 <strong>markdown</strong> 和 <strong>new skill</strong></p><ul><li><a href="https://github.com/hexojs/hexo">Hexo github</a></li><li><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Guide</a></li></ul><h2 id="Hexo-noted"><a href="#Hexo-noted" class="headerlink" title="Hexo noted"></a>Hexo noted</h2><h3 id="Change-Theme"><a href="#Change-Theme" class="headerlink" title="Change Theme"></a>Change Theme</h3><ol><li>pull the themes library to the themes folder</li><li>change <code>theme:XXX</code> in the <code>_config.yml</code></li></ol><h3 id="Deploy-to-gihub"><a href="#Deploy-to-gihub" class="headerlink" title="Deploy to gihub"></a>Deploy to gihub</h3><ol><li>set github path to <code>deploy:</code> in the <code>_config.yml</code></li><li>run cli <ol><li><code>hexo clean</code></li><li><code>hexo generate</code></li><li><code>hexo deploy</code></li></ol></li></ol>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
     
   </entry>
   
